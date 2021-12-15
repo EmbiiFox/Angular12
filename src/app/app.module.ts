@@ -12,8 +12,9 @@ import { TemplateDrivenFormComponent } from './template-driven-form/template-dri
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 import { GetDataComponent } from './get-data/get-data.component';
 import {HttpClientModule} from '@angular/common/http';
+import { PostDataComponent } from './post-data/post-data.component';
 @NgModule({
-  declarations: [AppComponent, HomeComponent, AboutComponent, OnSalePipe, PageNotFoundComponent, HighlightDirective, TemplateDrivenFormComponent, ReactiveFormComponent, GetDataComponent],
+  declarations: [AppComponent, HomeComponent, AboutComponent, OnSalePipe, PageNotFoundComponent, HighlightDirective, TemplateDrivenFormComponent, ReactiveFormComponent, GetDataComponent, PostDataComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule,HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
