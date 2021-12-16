@@ -2,6 +2,7 @@
 <br>
 <p>{{chaMessage}}</p>
 <br>
+<button (click)="choTien()">Cho con tiền nè</button>
 <br>
-<app-con name="Nairubi" (conGoi)="conGoi($event)"></app-con>
-<app-con name="Huy Lee" (conGoi)="conGoi($event)"></app-con>
+<app-con #beNairubi name="Nairubi" (conGoi)="conGoi($event)"></app-con>
+<app-con #beHuyLee name="Huy Lee" (conGoi)="conGoi($event)"></app-con>
